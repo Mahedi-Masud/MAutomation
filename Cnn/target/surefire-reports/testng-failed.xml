@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Cnn]" parallel="tests">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="Win10"/>
+  <parameter name="browserVersion" value="48.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="userName" value="mahedi"/>
+  <parameter name="Key" value=""/>
+  <parameter name="url" value="http://www.cnn.com/"/>
+  <test name="SearchNews">
+    <classes>
+      <class name="search.data.SearchNews"/>
+    </classes>
+  </test> <!-- SearchNews -->
+</suite> <!-- Failed suite [Cnn] -->

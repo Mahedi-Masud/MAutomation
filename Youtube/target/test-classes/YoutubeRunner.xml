@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Youtube" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="mahedi"/>
+    <parameter name="Key" value=""/>
+    <parameter name="os" value="Win10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="48.0"/>
+    <parameter name="url" value="https://www.youtube.com"/>
+
+
+    <test name = "YouTube">
+        <classes>
+            <class name="youtube.module.YouTube"/>
+        </classes>
+    </test>
+
+</suite>
