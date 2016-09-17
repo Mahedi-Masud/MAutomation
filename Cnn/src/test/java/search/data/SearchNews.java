@@ -16,7 +16,28 @@ public class SearchNews extends Base {
     List<String> list = new ArrayList<String>();
 
     @Test
-    public List<String> getNewsData() throws Exception{
+    public void searchNewsByKey() throws Exception{
+        String [] news = readData.getActionName();
+            for(String item:news){
+            if(item != null){
+                chooseAction(item);
+            }
+        }
+    }
+
+    public void chooseAction(String action) throws Exception {
+
+        switch (action){
+            case "ClickOnSearch" : ClickOnSearch();
+                break;
+            case "TypeOnSearch" : TypeOnSearch();
+                break;
+            default:System.out.println("Invalid Input");
+                break;
+        }
+
+    }
+    public List<String> getNewsData()throws Exception{
         String [] st = readData.getData();
         String data = "";
         for(String fetch:st){
@@ -29,7 +50,7 @@ public class SearchNews extends Base {
     public void TypeOnSearch() throws Exception {
         for(int i=0; i<list.size(); i++){
             typeByCss("#search-input-field", getNewsData().get(i));
+            sleepFor(3);
         }
-
     }
 }

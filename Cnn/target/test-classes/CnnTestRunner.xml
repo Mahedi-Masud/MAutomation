@@ -5,7 +5,7 @@
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="mahedi"/>
-    <parameter name="Key" value=""/>
+    <parameter name="accessKey" value="mahedi123"/>
     <parameter name="os" value="Win10"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="48.0"/>
@@ -14,7 +14,7 @@
 
     <test name = "SearchNews">
         <classes>
-            <class name="search.data.DataToSearch"/>
+            <class name="search.data.SearchNews"/>
         </classes>
     </test>
     </suite>

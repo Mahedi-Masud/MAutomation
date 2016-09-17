@@ -15,5 +15,4 @@ public class ItemsToBeSearched {
         String [] st = dr.fileReader(path);
         return st;
     }
-
 }

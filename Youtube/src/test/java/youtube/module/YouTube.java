@@ -27,45 +27,45 @@ public class YouTube extends Base{
         clickByCss("#search-btn");
         sleepFor(5);
     }
-//
-//    @Test(priority = 2)
-//    public void filter() throws InterruptedException {
-//        typeByCss("#masthead-search-term", "Hello");
-//        clickByCss("#search-btn");
-//        clickByCss(".filter-button-container");
-//        sleepFor(5);
-//        clickByXpath(".//*[@id='filter-dropdown']/div[1]/ul/li[5]/a/span");
-//        sleepFor(2);
-//    }
-//
-//    @Test
-//    //public class Youtube {
-//        public void FlashDriver() throws InterruptedException {
-//            //FirefoxDriver driver = new FirefoxDriver();
-//
-//            FlashObjectWebDriver flashApp = new FlashObjectWebDriver(driver, "movie_player");
-//
-////            driver.get("http://tinyurl.com/bqnaoo7");
-////            Thread.sleep(2000L);
-//
-//            // let the video load
-//             while (Integer.parseInt(flashApp.callFlashObject("getPlayerState")) == 3){
-//                Thread.sleep(1000L);
-//            }
-//
-//            // Play the video for 10 seconds
-//            //Thread.sleep(5000);
-//            flashApp.callFlashObject("pauseVideo");
-//            Thread.sleep(5000);
-//            flashApp.callFlashObject("playVideo");
-//            Thread.sleep(5000);
-//            flashApp.callFlashObject("seekTo","140","true");
-//            Thread.sleep(5000);
-//            flashApp.callFlashObject("mute");
-//            Thread.sleep(5000);
-//            flashApp.callFlashObject("setVolume","50");
-//            Thread.sleep(5000);
-//
-//        }
+
+    @Test(priority = 2)
+    public void filter() throws InterruptedException {
+        typeByCss("#masthead-search-term", "Hello");
+        clickByCss("#search-btn");
+        clickByCss(".filter-button-container");
+        sleepFor(5);
+        clickByXpath(".//*[@id='filter-dropdown']/div[1]/ul/li[5]/a/span");
+        sleepFor(2);
+    }
+
+    @Test
+    //public class Youtube {
+        public void FlashDriver() throws InterruptedException {
+            //FirefoxDriver driver = new FirefoxDriver();
+
+            FlashObjectWebDriver flashApp = new FlashObjectWebDriver(driver, "movie_player");
+
+//            driver.get("http://tinyurl.com/bqnaoo7");
+//            Thread.sleep(2000L);
+
+            // let the video load
+             while (Integer.parseInt(flashApp.callFlashObject("getPlayerState")) == 3){
+                Thread.sleep(1000L);
+            }
+
+            // Play the video for 10 seconds
+            //Thread.sleep(5000);
+            flashApp.callFlashObject("pauseVideo");
+            Thread.sleep(5000);
+            flashApp.callFlashObject("playVideo");
+            Thread.sleep(5000);
+            flashApp.callFlashObject("seekTo","140","true");
+            Thread.sleep(5000);
+            flashApp.callFlashObject("mute");
+            Thread.sleep(5000);
+            flashApp.callFlashObject("setVolume","50");
+            Thread.sleep(5000);
+
+        }
 
     }
