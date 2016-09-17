@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b29fa7-48d0-402a-b654-d0a98886e896" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/home/Search.class" afterPath="$PROJECT_DIR$/Cnn/target/test-classes/home/Search.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/search/data/SearchNews.class" afterPath="$PROJECT_DIR$/Cnn/target/test-classes/search/data/SearchNews.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Youtube/target/test-classes/youtube/module/YouTube.class" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/youtube/module/YouTube.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/Search.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/home/Search.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/java/search/data/SearchNews.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/search/data/SearchNews.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" afterPath="$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/CnnTestRunner.xml" afterPath="$PROJECT_DIR$/Cnn/target/test-classes/CnnTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Youtube/src/main/java/DatatoSearch/ItemsToBeSearched.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/DatatoSearch/ItemsToBeSearched.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Youtube/src/test/java/youtube/module/YouTube.java" afterPath="$PROJECT_DIR$/Youtube/src/test/java/youtube/module/YouTube.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeRunner.xml" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeRunner.xml" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeRunner.xml" />
     </list>
     <ignored path="AutomationFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -325,6 +315,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="AutomationFramework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -811,6 +811,14 @@
       <option name="presentableId" value="Default" />
       <updated>1473117321905</updated>
     </task>
+    <task id="LOCAL-00001" summary="with cnn">
+      <created>1474075043945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1474075043945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -886,6 +894,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="with cnn" />
+    <option name="LAST_COMMIT_MESSAGE" value="with cnn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1126,6 +1138,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
