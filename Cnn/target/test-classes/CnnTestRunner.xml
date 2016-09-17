@@ -14,7 +14,7 @@
 
     <test name = "SearchNews">
         <classes>
-            <class name="search.data.SearchNews"/>
+            <class name="search.data.DataToSearch"/>
         </classes>
     </test>
     </suite>
